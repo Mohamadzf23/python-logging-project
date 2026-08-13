@@ -1,23 +1,29 @@
 # Python Logging Project
 
-A practical Python project demonstrating how to use Python's built-in
-logging module in a small multi-file application.
+A practical Python project for learning and implementing the built-in `logging` module in a small multi-file application.
 
 ## Features
 
+- Custom Logger configuration
 - Logging levels
-- Custom logger configuration
-- Formatter
-- RotatingFileHandler
+- Log formatting
 - File logging
+- `RotatingFileHandler`
+- Log file rotation
 - Custom exceptions
-- Exception logging
+- Exception logging with `logger.exception()`
 - Username validation
 
 ## Project Structure
 
 ```text
-src/
-├── main.py
-├── users.py
-└── logger_config.py
+python-logging-project/
+│
+├── src/
+│   ├── main.py
+│   ├── users.py
+│   └── logger_config.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
